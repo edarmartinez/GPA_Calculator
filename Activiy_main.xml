@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Course 1 Grade Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course 1 Grade:" />
+    <EditText
+        android:id="@+id/course1Grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <!-- Course 2 Grade Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course 2 Grade:" />
+    <EditText
+        android:id="@+id/course2Grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <!-- Course 3 Grade Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course 3 Grade:" />
+    <EditText
+        android:id="@+id/course3Grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <!-- Course 4 Grade Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course 4 Grade:" />
+    <EditText
+        android:id="@+id/course4Grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <!-- Course 5 Grade Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course 5 Grade:" />
+    <EditText
+        android:id="@+id/course5Grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <!-- Compute GPA Button -->
+    <Button
+        android:id="@+id/computeGPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compute GPA"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+    <!-- GPA Result Display -->
+    <TextView
+        android:id="@+id/gpaResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPA: "
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
